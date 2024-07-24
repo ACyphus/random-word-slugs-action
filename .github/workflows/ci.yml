@@ -56,10 +56,14 @@ jobs:
       - name: Test Local Action
         id: test-action
         uses: ./
-        #with:
+        with:
+          number-of-words: 5
+          format: 'title'
+          parts-of-speech: 'noun,adjective,noun,adjective,noun'
 
       - name: Print Output
         id: output
         run: |
-          echo "${{ steps.test-action.outputs.words }}"
+          echo "As configured: ${{ steps.test-action.outputs.words }}"
+          echo "In kebab-case: ${{ steps.test-action.outputs.words-kebab-case }}"
           echo "${{ steps.test-action.outputs.time }}"

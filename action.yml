@@ -8,11 +8,26 @@ inputs:
     description: 'The number of words to generate'
     required: false
     default: 3
+  format:
+    description:
+      'The format of the words. One of the following cases: kebab, camel,
+      sentence, lower, title'
+    required: false
+    default: 'kebab'
+  parts-of-speech:
+    description:
+      'The parts of speech to use. One of the following: noun, adjective. Note
+      that, if provided, parts-of-speech must be a string with comma separated
+      options of the same number as the number of words you are requesting.'
+    required: false
+    default: false
 
 # Define your outputs here.
 outputs:
   words:
     description: 'The generated words'
+  words-kebab-case:
+    description: 'The generated words in kebab-case'
   time:
     description: 'Your output description here'
 
