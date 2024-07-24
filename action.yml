@@ -11,6 +11,8 @@ inputs:
 
 # Define your outputs here.
 outputs:
+  words:
+    description: 'The generated words'
   time:
     description: 'Your output description here'
 
