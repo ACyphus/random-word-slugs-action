@@ -58,12 +58,14 @@ jobs:
         uses: ./
         with:
           number-of-words: 5
-          format: 'title'
           parts-of-speech: 'noun,adjective,noun,adjective,noun'
 
-      - name: Print Output
+      - name: Print Outputs
         id: output
         run: |
-          echo "As configured: ${{ steps.test-action.outputs.words }}"
-          echo "In kebab-case: ${{ steps.test-action.outputs.words-kebab-case }}"
+          echo "In kebab-case: ${{ steps.test-action.outputs.words-kebab }}"
+          echo "In camelCase: ${{ steps.test-action.outputs.words-camel }}"
+          echo "In Sentence case: ${{ steps.test-action.outputs.words-sentence }}"
+          echo "In lower case: ${{ steps.test-action.outputs.words-lower }}"
+          echo "In title case: ${{ steps.test-action.outputs.words-title }}"
           echo "${{ steps.test-action.outputs.time }}"
