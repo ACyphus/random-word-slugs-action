@@ -1,7 +1,7 @@
 {
   "name": "random-word-slugs-action",
   "description": "A GitHub Action implementation of the JS library random-word-slugs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "acyphus",
   "private": true,
   "homepage": "https://github.com/ACyphus/random-word-slugs-action",
