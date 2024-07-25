@@ -1,20 +1,23 @@
 {
-  "name": "javascript-action",
-  "description": "GitHub Actions JavaScript Template",
-  "version": "0.0.0",
-  "author": "",
+  "name": "random-word-slugs-action",
+  "description": "A GitHub Action implementation of the JS library random-word-slugs",
+  "version": "0.0.1",
+  "author": "acyphus",
   "private": true,
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/ACyphus/random-word-slugs-action",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/ACyphus/random-word-slugs-action.git"
   },
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/ACyphus/random-word-slugs-action/issues"
   },
   "keywords": [
     "GitHub",
     "Actions",
+    "random words",
+    "random word generator",
+    "slugs",
     "JavaScript"
   ],
   "exports": {

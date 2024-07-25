@@ -1,6 +1,6 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Random Words'
+description: 'Generate a string of random english words'
+author: 'acyphus'
 
 # Define your inputs here.
 inputs:
@@ -29,7 +29,7 @@ outputs:
   words-title:
     description: 'The generated words in title case'
   time:
-    description: 'Your output description here'
+    description: 'A timestamp of when the action was run'
 
 runs:
   using: node20
