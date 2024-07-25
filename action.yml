@@ -1,6 +1,9 @@
-name: 'Random Words'
+name: 'Random Word Generator'
 description: 'Generate a string of random english words'
 author: 'acyphus'
+branding:
+  icon: 'book-open'
+  color: 'blue'
 
 # Define your inputs here.
 inputs:
